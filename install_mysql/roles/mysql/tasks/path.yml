@@ -1,0 +1,3 @@
+---
+- name: variable
+  copy: content='PATH=/usr/local/mysql/bin:$PATH' dest=/etc/profile.d/mysql.sh

@@ -1,0 +1,3 @@
+---
+- name: create mysql group
+  group: name=mysql gid=306
